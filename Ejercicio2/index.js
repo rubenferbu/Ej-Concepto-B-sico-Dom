@@ -23,10 +23,12 @@ const apps = ['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter'];
 
 // 1.1
 const emptyDiv = document.createElement('div');
-document.body.appendChild(emptyDiv);    
+document.body.appendChild(emptyDiv);
+ 
 // 1.2
 const divWithP = document.createElement('div');
 const p = document.createElement('p');
+
 divWithP.appendChild(p);
 document.body.appendChild(divWithP);
 // 1.3
